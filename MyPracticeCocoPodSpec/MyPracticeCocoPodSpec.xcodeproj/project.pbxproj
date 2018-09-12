@@ -13,6 +13,7 @@
 		DDEEAD912148B05700DDE5F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDEEAD902148B05700DDE5F2 /* Assets.xcassets */; };
 		DDEEAD942148B05700DDE5F2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDEEAD922148B05700DDE5F2 /* LaunchScreen.storyboard */; };
 		DDEEAD972148B05700DDE5F2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DDEEAD962148B05700DDE5F2 /* main.m */; };
+		DDEEADA02148B10300DDE5F2 /* TYCPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = DDEEAD9F2148B10300DDE5F2 /* TYCPerson.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		DDEEAD932148B05700DDE5F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DDEEAD952148B05700DDE5F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DDEEAD962148B05700DDE5F2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DDEEAD9E2148B10300DDE5F2 /* TYCPerson.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYCPerson.h; sourceTree = "<group>"; };
+		DDEEAD9F2148B10300DDE5F2 /* TYCPerson.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYCPerson.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +78,8 @@
 		DDEEAD9D2148B0A100DDE5F2 /* MyKit */ = {
 			isa = PBXGroup;
 			children = (
+				DDEEAD9E2148B10300DDE5F2 /* TYCPerson.h */,
+				DDEEAD9F2148B10300DDE5F2 /* TYCPerson.m */,
 			);
 			path = MyKit;
 			sourceTree = SOURCE_ROOT;
@@ -150,6 +155,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DDEEAD8C2148B04700DDE5F2 /* ViewController.m in Sources */,
+				DDEEADA02148B10300DDE5F2 /* TYCPerson.m in Sources */,
 				DDEEAD972148B05700DDE5F2 /* main.m in Sources */,
 				DDEEAD892148B04700DDE5F2 /* AppDelegate.m in Sources */,
 			);

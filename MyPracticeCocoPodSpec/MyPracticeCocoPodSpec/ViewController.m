@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "TYCPerson.h"
 
 @interface ViewController ()
 
@@ -17,6 +18,12 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    TYCPerson *person = [TYCPerson new];
+    person.name = @"小川";
+    
+    [person eat];
+    
 }
 
 
